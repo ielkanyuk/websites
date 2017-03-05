@@ -1,7 +1,7 @@
 @import "/skins/colors/variables.less";
 
 body {
-	
+	background-color: rgba(40, 96, 144, 0.15);
 }
 
 #overall {
