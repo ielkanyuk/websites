@@ -1,12 +1,12 @@
 @import "/skins/colors/variables.less";
 
 body {
-	
+	background-color: rgba(40, 96, 144, 0.15);
 }
 
 #overall {
 	width: 100%;
-	background: url(images/bg_top_3.jpg) left top repeat;
+	background: url(./images/bg_top_3.jpg) left top repeat;
 	overflow: hidden;
 }
 
@@ -217,7 +217,7 @@ input[type="text"], input[type='password'], input[type='number'] {
 	width: 100%;
 	text-align: center;
 	font-family: 'PT Sans Narrow', sans-serif;
-	font-size: 46px;
+	font-size: 26px;
 	color: #094370;
 	line-height: 36px;
 	margin-top: 5px;
@@ -485,6 +485,10 @@ a.fb_image, a.fb_image:link, a.fb_image:visited, a.fb_image:hover {
 .tab_sp tr:first-child > td {
 	font-weight: bold;
 	text-align: center;
+}
+
+a {
+	cursor: pointer;
 }
 
 /* ----------------------------------------- Коррекция адаптивности */
